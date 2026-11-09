@@ -9,7 +9,7 @@ def add(a, b):
 
 @app.route("/")
 def home():
-    return f"App is running! 3 + 2 = {add(3, 2)}"
+    return f"App is running! 3 + 7 = {add(3, 7)}"
 
 
 if __name__ == "__main__":
